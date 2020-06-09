@@ -250,9 +250,9 @@ var Controller = (function(UICtrl) {
         document.querySelector('.box'+box1.toString()).style.borderColor = 'red';
         document.querySelector('.box'+box2.toString()).style.borderColor = 'red';
         document.querySelector('.box'+box3.toString()).style.borderColor = 'red';
-        document.querySelector('.box'+box1.toString()).style.borderWidth = 'medium';
-        document.querySelector('.box'+box2.toString()).style.borderWidth = 'medium';
-        document.querySelector('.box'+box3.toString()).style.borderWidth = 'medium';
+//        document.querySelector('.box'+box1.toString()).style.borderWidth = 'medium';
+//        document.querySelector('.box'+box2.toString()).style.borderWidth = 'medium';
+//        document.querySelector('.box'+box3.toString()).style.borderWidth = 'medium';
         
     }
     

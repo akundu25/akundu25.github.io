@@ -56,24 +56,50 @@ var Controller = (function(UICtrl) {
         
         document.querySelector(DOM.start_game).addEventListener('click', inputData);
         
-        document.querySelector(DOM.box1).addEventListener('click', function() {actionBox(1)});
+         document.querySelector(DOM.box1).addEventListener('click', function anonymous1() {
+            actionBox(1);
+            document.querySelector(DOM.box1).removeEventListener('click', anonymous1);
+        });
         
-        document.querySelector(DOM.box2).addEventListener('click', function() {actionBox(2)});
+       document.querySelector(DOM.box2).addEventListener('click', function anonymous2() {
+            actionBox(2);
+            document.querySelector(DOM.box2).removeEventListener('click', anonymous2);
+        });
         
-        document.querySelector(DOM.box3).addEventListener('click', function() {actionBox(3)});
+        document.querySelector(DOM.box3).addEventListener('click', function anonymous3() {
+            actionBox(3);
+            document.querySelector(DOM.box3).removeEventListener('click', anonymous3);
+        });
         
-        document.querySelector(DOM.box4).addEventListener('click', function() {actionBox(4)});
+        document.querySelector(DOM.box4).addEventListener('click', function anonymous4() {
+            actionBox(4);
+            document.querySelector(DOM.box4).removeEventListener('click', anonymous4);
+        });
         
-        document.querySelector(DOM.box5).addEventListener('click', function() {actionBox(5)});
+        document.querySelector(DOM.box5).addEventListener('click', function anonymous5() {
+            actionBox(5);
+            document.querySelector(DOM.box5).removeEventListener('click', anonymous5);
+        });
         
-        document.querySelector(DOM.box6).addEventListener('click', function() {actionBox(6)});
+        document.querySelector(DOM.box6).addEventListener('click', function anonymous6() {
+            actionBox(6);
+            document.querySelector(DOM.box6).removeEventListener('click', anonymous6);
+        });
         
-        document.querySelector(DOM.box7).addEventListener('click', function() {actionBox(7)});
+        document.querySelector(DOM.box7).addEventListener('click', function anonymous7() {
+            actionBox(7);
+            document.querySelector(DOM.box7).removeEventListener('click', anonymous7);
+        });
         
-        document.querySelector(DOM.box8).addEventListener('click', function() {actionBox(8)});
+        document.querySelector(DOM.box8).addEventListener('click', function anonymous8() {
+            actionBox(8);
+            document.querySelector(DOM.box8).removeEventListener('click', anonymous8);
+        });
         
-        document.querySelector(DOM.box9).addEventListener('click', function() {actionBox(9)});
-        
+        document.querySelector(DOM.box9).addEventListener('click', function anonymous9() {
+            actionBox(9);
+            document.querySelector(DOM.box9).removeEventListener('click', anonymous9);
+        });
     }
     
     
